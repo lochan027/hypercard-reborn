@@ -1,2 +1,1 @@
-# hypercard-reborn
-Apple's HyperCard resurrected for the browser, with AI agent buttons. Kiroween 2026
+# HyperCard Reborn, a browser-based resurrection of Apple's HyperCard where users create apps from stacks of cards, buttons, and fields, scripted in a custom HyperTalk-style language I'm writing with a parser and interpreter.
