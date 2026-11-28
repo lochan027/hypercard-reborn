@@ -87,7 +87,7 @@ Implement the stack data model and runtime in `src/engine/` using TypeScript str
 - [x] 6. Checkpoint — Ensure all tests pass
   - Ensure all tests pass, ask the user if questions arise.
 
-- [ ] 7. Implement serialiser in `src/engine/stack-serialise.ts`
+- [x] 7. Implement serialiser in `src/engine/stack-serialise.ts`
   - [x] 7.1 Implement `saveStack(stack: Stack): string`
     - Delegate to `JSON.stringify(stack)`.
     - _Requirements: 6.1_
@@ -97,21 +97,21 @@ Implement the stack data model and runtime in `src/engine/` using TypeScript str
     - Pass the parsed value to `validateStack`; propagate any validation error.
     - _Requirements: 6.2, 6.3, 6.4, 6.5, 6.6_
 
-  - [-] 7.3 Write property test: save/load round-trip
+  - [x] 7.3 Write property test: save/load round-trip
     - **Property 2: Save/load round-trip**
     - Generate a valid `Stack` using fast-check arbitraries. Assert `loadStack(saveStack(stack))` returns `ok` and the loaded value is deeply equal to the original.
     - **Validates: Requirements 6.1, 6.2, 6.3, 6.4, 6.5, 6.6**
 
-  - [ ] 7.4 Write unit tests for serialiser error paths
+  - [x] 7.4 Write unit tests for serialiser error paths
     - Invalid JSON string, valid JSON with schema violations (missing fields, broken backgroundId).
     - _Requirements: 6.3, 6.4_
 
-- [~] 8. Wire everything into `src/engine/index.ts`
+- [x] 8. Wire everything into `src/engine/index.ts`
   - Re-export all public types and functions from `stack-types.ts`, `message.ts`, `stack-runtime.ts`, `stack-serialise.ts`, and `stack-validate.ts`.
   - Ensure no existing exports are removed or broken.
   - _Requirements: 7.1, 7.2, 7.3_
 
-- [~] 9. Final checkpoint — Ensure all tests pass
+- [x] 9. Final checkpoint — Ensure all tests pass
   - Ensure all tests pass, ask the user if questions arise.
 
 ## Notes

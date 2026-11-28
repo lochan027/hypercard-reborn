@@ -22,7 +22,7 @@
     },
     "7.3 Write property test: save/load round-trip": {
       "status": "passed",
-      "lastRunTimestamp": 1795720855894
+      "lastRunTimestamp": 1795838987867
     }
   },
   "executionHistory": {
@@ -342,6 +342,21 @@
         "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
         "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
         "timestamp": 1795720824446
+      },
+      {
+        "executionId": "aeb2778f-0973-496d-a6fe-163a8915f7bf",
+        "chatSessionId": "sess_e65776ec-a89f-4a98-bf8a-40a27f5a30ae",
+        "timestamp": 1795838931387
+      },
+      {
+        "executionId": "aeb2778f-0973-496d-a6fe-163a8915f7bf",
+        "chatSessionId": "sess_e65776ec-a89f-4a98-bf8a-40a27f5a30ae",
+        "timestamp": 1795838932726
+      },
+      {
+        "executionId": "aeb2778f-0973-496d-a6fe-163a8915f7bf",
+        "chatSessionId": "sess_e65776ec-a89f-4a98-bf8a-40a27f5a30ae",
+        "timestamp": 1795838993926
       }
     ],
     "7.4 Write unit tests for serialiser error paths": [
@@ -354,6 +369,16 @@
         "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
         "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
         "timestamp": 1795720826002
+      },
+      {
+        "executionId": "aeb2778f-0973-496d-a6fe-163a8915f7bf",
+        "chatSessionId": "sess_e65776ec-a89f-4a98-bf8a-40a27f5a30ae",
+        "timestamp": 1795838931436
+      },
+      {
+        "executionId": "aeb2778f-0973-496d-a6fe-163a8915f7bf",
+        "chatSessionId": "sess_e65776ec-a89f-4a98-bf8a-40a27f5a30ae",
+        "timestamp": 1795838994154
       }
     ],
     "8. Wire everything into `src/engine/index.ts`": [
@@ -361,6 +386,16 @@
         "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
         "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
         "timestamp": 1795719238364
+      },
+      {
+        "executionId": "689a7851-35a4-4359-b04f-8161fadd9a61",
+        "chatSessionId": "sess_f999a2e6-b1b9-4a76-ab9a-909086626fc9",
+        "timestamp": 1795839037511
+      },
+      {
+        "executionId": "689a7851-35a4-4359-b04f-8161fadd9a61",
+        "chatSessionId": "sess_f999a2e6-b1b9-4a76-ab9a-909086626fc9",
+        "timestamp": 1795839069411
       }
     ],
     "9. Final checkpoint — Ensure all tests pass": [
@@ -368,6 +403,16 @@
         "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
         "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
         "timestamp": 1795719238401
+      },
+      {
+        "executionId": "689a7851-35a4-4359-b04f-8161fadd9a61",
+        "chatSessionId": "sess_f999a2e6-b1b9-4a76-ab9a-909086626fc9",
+        "timestamp": 1795839071371
+      },
+      {
+        "executionId": "689a7851-35a4-4359-b04f-8161fadd9a61",
+        "chatSessionId": "sess_f999a2e6-b1b9-4a76-ab9a-909086626fc9",
+        "timestamp": 1795839083243
       }
     ],
     "2. Implement the structural validator in `src/engine/stack-validate.ts`": [
@@ -389,6 +434,13 @@
         "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
         "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
         "timestamp": 1795720481984
+      }
+    ],
+    "7. Implement serialiser in `src/engine/stack-serialise.ts`": [
+      {
+        "executionId": "aeb2778f-0973-496d-a6fe-163a8915f7bf",
+        "chatSessionId": "sess_e65776ec-a89f-4a98-bf8a-40a27f5a30ae",
+        "timestamp": 1795838994191
       }
     ]
   }
