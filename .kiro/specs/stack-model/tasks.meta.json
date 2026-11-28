@@ -1,0 +1,395 @@
+{
+  "pbtResults": {
+    "2.2 Write property test: validator rejects invalid Rect geometry": {
+      "status": "passed",
+      "lastRunTimestamp": 1795719637462
+    },
+    "2.3 Write property test: validator rejects broken backgroundId references": {
+      "status": "passed",
+      "lastRunTimestamp": 1795719662801
+    },
+    "4.3 Write property test: message bubbling order": {
+      "status": "passed",
+      "lastRunTimestamp": 1795720022796
+    },
+    "5.2 Write property test: setFieldText immutability and targeting": {
+      "status": "passed",
+      "lastRunTimestamp": 1795720381673
+    },
+    "5.4 Write property test: navigation stays in bounds": {
+      "status": "passed",
+      "lastRunTimestamp": 1795720445196
+    },
+    "7.3 Write property test: save/load round-trip": {
+      "status": "passed",
+      "lastRunTimestamp": 1795720855894
+    }
+  },
+  "executionHistory": {
+    "1. Define core data model types in `src/engine/stack-types.ts`": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719237751
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719240281
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719257636
+      }
+    ],
+    "2.1 Implement `validateRect`, `validateBackgroundField`, `validateBackground`, `validateButton`, `validateField`, `validateCard`, `validateMetadata`, and `validateStack`": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719237788
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719259330
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719595499
+      }
+    ],
+    "2.2 Write property test: validator rejects invalid Rect geometry": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719237812
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719597350
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719890180
+      }
+    ],
+    "2.3 Write property test: validator rejects broken backgroundId references": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719237836
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719598814
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719891612
+      }
+    ],
+    "2.4 Write unit tests for validator edge cases": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719237863
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719600196
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719893239
+      }
+    ],
+    "3. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719237889
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719895108
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719914119
+      }
+    ],
+    "4.1 Implement `scriptHasHandler(script: string, handlerName: string): boolean`": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719237915
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719916015
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719938036
+      }
+    ],
+    "4.2 Implement `dispatchMessage(target: MessageTarget, message: HyperTalkMessage, stack: Stack): DispatchResult`": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719237938
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719939852
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719978507
+      }
+    ],
+    "4.3 Write property test: message bubbling order": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719237962
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719982198
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720401200
+      }
+    ],
+    "4.4 Write unit tests for dispatcher": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719237996
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719983737
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720402708
+      }
+    ],
+    "5.1 Implement `getFieldText` and `setFieldText`": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719238023
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719941334
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719980057
+      }
+    ],
+    "5.2 Write property test: setFieldText immutability and targeting": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719238057
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719985209
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720404390
+      }
+    ],
+    "5.3 Implement `currentCard`, `navigateTo`, `navigateNext`, and `navigatePrev`": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719238089
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719986642
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720405888
+      }
+    ],
+    "5.4 Write property test: navigation stays in bounds": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719238131
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720407775
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720480536
+      }
+    ],
+    "5.5 Write unit tests for runtime API": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719238163
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720409225
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720481947
+      }
+    ],
+    "6. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719238196
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720483910
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720795605
+      }
+    ],
+    "7.1 Implement `saveStack(stack: Stack): string`": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719238230
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720797796
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720807796
+      }
+    ],
+    "7.2 Implement `loadStack(json: string): Result<Stack, EngineError>`": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719238264
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720809482
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720822673
+      }
+    ],
+    "7.3 Write property test: save/load round-trip": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719238297
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720824446
+      }
+    ],
+    "7.4 Write unit tests for serialiser error paths": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719238331
+      },
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720826002
+      }
+    ],
+    "8. Wire everything into `src/engine/index.ts`": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719238364
+      }
+    ],
+    "9. Final checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719238401
+      }
+    ],
+    "2. Implement the structural validator in `src/engine/stack-validate.ts`": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795719893271
+      }
+    ],
+    "4. Implement message dispatcher in `src/engine/message.ts`": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720402745
+      }
+    ],
+    "5. Implement runtime API in `src/engine/stack-runtime.ts`": [
+      {
+        "executionId": "a70d50f0-e65f-43ef-afc7-17cedee00099",
+        "chatSessionId": "sess_713dbe74-e33b-4016-a8d0-83ce6863fe71",
+        "timestamp": 1795720481984
+      }
+    ]
+  }
+}
